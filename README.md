@@ -4,13 +4,19 @@ Requirement: Node ^12.0.0 || >= 14.0.0.
 ## To setup the poject run below command
 
 1) clone the git repo
+```
 git clone https://github.com/anjanrs/cw-assignment.git
+```
 
 2) change current direct to cw-assignement, and run 
+```
 npm install
+```
 
 3) To run the project, inside cw-assignemnt run below command
+```
 npm run serve
+```
 
 4) Now load the url displayed in the browser e.g url (http://localhost:8080)
 
