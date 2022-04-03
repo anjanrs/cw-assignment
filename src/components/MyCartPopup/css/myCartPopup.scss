@@ -1,0 +1,107 @@
+
+.my_cart_popup {
+    box-shadow: 0 6px 8px 0 rgb(0 0 0 / 30%);
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 100;
+    min-width: 500px;
+    .cart_item_row {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        .product {
+            width: 90%;
+            display: flex;
+            .img_wrapper {
+                width: 150px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .info {
+                padding: 0 20px;
+                display: flex;
+                flex-direction: column;
+                h4 {
+                    color: #a0a5ab;
+                    margin: 2px 0;
+                    font-size: 14px;
+                }
+                h2 {
+                    margin: 2px 0;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-family:  'Montserrat', sans-serif;
+                }
+                label {
+                    color: #000;
+                    margin: 2px 0;
+                    font-size: 14px;
+                }
+
+            }
+        }
+        .action {
+            width: 10%;
+            .remove_item {
+                cursor: pointer;
+                color: #a0a5ab;
+                font-size: 18px;
+                text-align: right;
+            }
+        }
+    }
+    .my_cart_overview_wrapper {
+        border-top:1px solid grey;
+        padding: 20px 0;
+        font-family:  'Montserrat', sans-serif;
+        text-align: right;
+        .cart_overview {
+            display: inline-block;
+            max-width: 500px;
+            width: 100%;
+            border: 1px soid grey;
+            .total {
+                padding: 5px 0;
+                display: flex;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 600;
+                color: #a0a5ab;
+                label {
+                    width: 50%;
+                    text-align: left;
+                }
+                label:nth-child(2) {
+                    color: #000;
+                    text-align: right;
+                }
+            }
+        }
+        
+    }
+    .my_cart_cta_wrapper{
+        width: 100%;
+        .cart_cta {
+            display: flex;
+            a {
+                width: 50%;
+                text-decoration: none;
+                div.button {
+                    width: 100%;
+                }
+            }
+            div.button {
+                display: block;
+                width: 50%;
+                &:nth-child(2) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

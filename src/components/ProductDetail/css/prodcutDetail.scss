@@ -1,0 +1,37 @@
+.product_detail {
+    display: flex;
+    .product_big_image {
+        lost-column: 3/5;
+        img {
+            width: 100%;
+        }
+    }
+    .product_info {
+        lost-column: 2/5;
+        padding: 10px 60px; 
+        text-align: center;
+        .title {
+            font-family: 'Lora', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            color: #000;
+        }
+        .desc {
+            line-height: 24px;
+            font-size: 16px;
+        }
+        hr {
+            margin: 30px 0px;
+        }
+        .add_to_cart {
+            lost-center: 350px;
+            display: flex;
+            .button {
+                width: 100%;
+                max-width: none;
+                margin-left: 15px;
+                padding: 28px;
+            }
+        }
+    }
+}
