@@ -1,7 +1,7 @@
 <template>
   <div class="breadcrumb">
           <router-link to="/">Home</router-link>&nbsp;/&nbsp;
-          <router-link :to="'/category/' + category">Shop</router-link>&nbsp;/&nbsp;
+          <router-link :to="'/category/' + category">{{category}}</router-link>&nbsp;/&nbsp;
           <label>{{productTitle}}</label>
   </div>
 </template>
